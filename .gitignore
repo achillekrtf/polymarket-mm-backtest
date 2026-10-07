@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+*.log
+dist/
+site-article/
+# raw downloads and regenerable caches (the packed data is a release asset)
+data/markets/
+data/markets.parquet
+data/trades.parquet
+data/spot/
+data/fair.npz
