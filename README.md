@@ -48,6 +48,26 @@ python3 site_charts.py    # charts for the article
 
 Requires pandas, numpy, pyarrow and matplotlib. `run.py` builds `data/fair.npz` (the fair value path of every market) on the first run, which takes a few minutes.
 
+## Follow-up: does VPIN detect toxic flow?
+
+Write-up: [Does VPIN detect toxic flow? Testing my bot's filter on 12 million trades](https://achillekrtf.github.io/articles/vpin-toxic-flow-polymarket/)
+
+```bash
+python3 vpin_study.py                    # VPIN before every in-window trade -> data/vpin_features.parquet
+python3 vpin_analysis.py                 # deciles, regression, signed VPIN, quoter with pauses -> vpin_results.json
+python3 vpin_analysis.py --quoter-only   # rerun only the pause simulations
+python3 vpin_charts.py                   # charts for the article
+```
+
+| | |
+|---|---|
+| My bot's VPIN (Up token, $5 buckets x 20) | Above its 0.7 pause threshold on 99% of trades |
+| Top vs bottom decile, 30 s adverse move | Bot VPIN +45 bp (8 to 81); full-flow $500 VPIN −56 bp (−89 to −27) |
+| VPIN in a regression with time to expiry, price, size, activity | Not significant |
+| Pausing new positions on VPIN vs a random pause of the same length | Small improvement at high thresholds, best case break-even |
+
+Full output: [`vpin_results.txt`](vpin_results.txt) and [`vpin_quoter.txt`](vpin_quoter.txt).
+
 ## Method
 
 - **Up space.** A trade on the Down token at price q is treated as the opposite trade on Up at 1 − q, so each market has one price.

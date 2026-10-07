@@ -9,3 +9,6 @@ data/markets.parquet
 data/trades.parquet
 data/spot/
 data/fair.npz
+site-article-vpin/
+data/vpin_features.parquet
+data/vpin_bot_paths.npz

@@ -143,12 +143,15 @@ def naive_path(tr_window):
 
 
 def simulate_market(tr, fair, y, center="spot", half=0.02, latency=1, through=0.01,
-                    size=20.0, max_inv=100.0, gamma=1.0, stop_before=15, band=(0.04, 0.96)):
+                    size=20.0, max_inv=100.0, gamma=1.0, stop_before=15, band=(0.04, 0.96),
+                    pause=None, pause_mode="all"):
     """One market. tr: taker trades inside the window (t, dir, x, size), sorted by t.
 
     Quotes at second s use information from second s - latency. A resting bid fills when a
     taker sale prints at or below bid - through (it swept our level), and fills our full
     remaining size up to the traded size. Inventory is held to resolution.
+    pause: optional boolean array per second; quoting stops at s when pause[s - latency] is set.
+    pause_mode: "all" stops both sides; "entry" keeps only the side that reduces inventory.
     Returns (pnl, rebate, fills list).
     """
     ref = fair if center == "spot" else naive_path(tr)
@@ -163,11 +166,16 @@ def simulate_market(tr, fair, y, center="spot", half=0.02, latency=1, through=0.
         k = s - latency
         c = ref[k] if k >= 0 else np.nan
         quoting = not np.isnan(c) and band[0] <= c <= band[1] and s < WINDOW - stop_before
+        paused = quoting and pause is not None and k >= 0 and pause[k]
+        if paused and pause_mode == "all":
+            quoting = False
         if quoting:
             skew = gamma * half * inv / max_inv
             bid = np.floor((c - half - skew) * 100 + 1e-9) / 100
             ask = np.ceil((c + half - skew) * 100 - 1e-9) / 100
             bid_on, ask_on = bid >= 0.01 and inv < max_inv, ask <= 0.99 and inv > -max_inv
+            if paused:                                  # entry mode: only quote the side that reduces inventory
+                bid_on, ask_on = bid_on and inv < 0, ask_on and inv > 0
         else:
             bid_on = ask_on = False
         while j < n and t[j] == s:

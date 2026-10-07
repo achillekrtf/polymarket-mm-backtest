@@ -1,0 +1,1061 @@
+{
+ "dist_vpin_bot": {
+  "missing": 0.004598269902899228,
+  "median": 0.9723988852468091,
+  "share_above": {
+   "0.3": 0.995399184580806,
+   "0.7": 0.9904263132154337,
+   "0.85": 0.8941213846688973
+  }
+ },
+ "dist_vpin_flow5": {
+  "missing": 0.0019922360110741456,
+  "median": 0.9014673929817676,
+  "share_above": {
+   "0.3": 0.9979607129941873,
+   "0.7": 0.9731370023146133,
+   "0.85": 0.7013014814247928
+  }
+ },
+ "dist_vpin_flow50": {
+  "missing": 0.009205818623259976,
+  "median": 0.718965640783883,
+  "share_above": {
+   "0.3": 0.989986842144159,
+   "0.7": 0.5516348126779193,
+   "0.85": 0.17778895797730318
+  }
+ },
+ "dist_vpin_flow500": {
+  "missing": 0.06632605468951434,
+  "median": 0.45364712477441715,
+  "share_above": {
+   "0.3": 0.8394370434698639,
+   "0.7": 0.06057942848396604,
+   "0.85": 0.006751284007687131
+  }
+ },
+ "deciles_vpin_bot": [
+  {
+   "decile": 1,
+   "vpin": 0.79551,
+   "notional_share": 0.12114,
+   "spread_bp": 95.07059,
+   "tox30_bp": 40.47447,
+   "pnl30_bp": 54.59612,
+   "pnlres_bp": 38.60691,
+   "trade_usd": 19.05676,
+   "trades_10s": 79.43684,
+   "spot_move_10s_c": 8.17585
+  },
+  {
+   "decile": 2,
+   "vpin": 0.87362,
+   "notional_share": 0.10549,
+   "spread_bp": 106.97037,
+   "tox30_bp": 58.24658,
+   "pnl30_bp": 48.7238,
+   "pnlres_bp": 0.72977,
+   "trade_usd": 16.59472,
+   "trades_10s": 83.37289,
+   "spot_move_10s_c": 8.74287
+  },
+  {
+   "decile": 3,
+   "vpin": 0.90901,
+   "notional_share": 0.10066,
+   "spread_bp": 117.44519,
+   "tox30_bp": 58.59265,
+   "pnl30_bp": 58.85254,
+   "pnlres_bp": -3.44837,
+   "trade_usd": 15.83549,
+   "trades_10s": 83.81394,
+   "spot_move_10s_c": 8.64876
+  },
+  {
+   "decile": 4,
+   "vpin": 0.9357,
+   "notional_share": 0.09904,
+   "spread_bp": 128.84659,
+   "tox30_bp": 60.85273,
+   "pnl30_bp": 67.99386,
+   "pnlres_bp": 17.77247,
+   "trade_usd": 15.58002,
+   "trades_10s": 85.33238,
+   "spot_move_10s_c": 8.78027
+  },
+  {
+   "decile": 5,
+   "vpin": 0.9601,
+   "notional_share": 0.09962,
+   "spread_bp": 121.21104,
+   "tox30_bp": 71.32787,
+   "pnl30_bp": 49.88317,
+   "pnlres_bp": -0.9993,
+   "trade_usd": 15.67127,
+   "trades_10s": 85.21624,
+   "spot_move_10s_c": 8.76169
+  },
+  {
+   "decile": 6,
+   "vpin": 0.98402,
+   "notional_share": 0.1015,
+   "spread_bp": 114.2665,
+   "tox30_bp": 67.49016,
+   "pnl30_bp": 46.77634,
+   "pnlres_bp": 36.13797,
+   "trade_usd": 15.96772,
+   "trades_10s": 84.5172,
+   "spot_move_10s_c": 8.26999
+  },
+  {
+   "decile": 7,
+   "vpin": 0.99919,
+   "notional_share": 0.09658,
+   "spread_bp": 134.35707,
+   "tox30_bp": 83.0042,
+   "pnl30_bp": 51.35287,
+   "pnlres_bp": 14.8293,
+   "trade_usd": 15.1927,
+   "trades_10s": 86.36552,
+   "spot_move_10s_c": 8.34637
+  },
+  {
+   "decile": 8,
+   "vpin": 1.0,
+   "notional_share": 0.09842,
+   "spread_bp": 146.19255,
+   "tox30_bp": 75.79897,
+   "pnl30_bp": 70.39358,
+   "pnlres_bp": 0.57409,
+   "trade_usd": 15.48339,
+   "trades_10s": 87.55608,
+   "spot_move_10s_c": 8.25028
+  },
+  {
+   "decile": 9,
+   "vpin": 1.0,
+   "notional_share": 0.09125,
+   "spread_bp": 138.59176,
+   "tox30_bp": 81.18515,
+   "pnl30_bp": 57.40661,
+   "pnlres_bp": -17.24019,
+   "trade_usd": 14.35497,
+   "trades_10s": 97.0987,
+   "spot_move_10s_c": 7.73276
+  },
+  {
+   "decile": 10,
+   "vpin": 1.0,
+   "notional_share": 0.08631,
+   "spread_bp": 167.2851,
+   "tox30_bp": 85.90583,
+   "pnl30_bp": 81.37928,
+   "pnlres_bp": -46.60338,
+   "trade_usd": 13.57797,
+   "trades_10s": 126.91117,
+   "spot_move_10s_c": 7.63129
+  }
+ ],
+ "top_minus_bottom_vpin_bot": {
+  "tox30_bp": 45.4313535167534,
+  "ci": [
+   7.4712777322725135,
+   80.98908869616788
+  ]
+ },
+ "deciles_vpin_flow50": [
+  {
+   "decile": 1,
+   "vpin": 0.50775,
+   "notional_share": 0.07026,
+   "spread_bp": 102.97157,
+   "tox30_bp": 88.72863,
+   "pnl30_bp": 14.24294,
+   "pnlres_bp": -35.87448,
+   "trade_usd": 11.073,
+   "trades_10s": 101.41209,
+   "spot_move_10s_c": 8.86394
+  },
+  {
+   "decile": 2,
+   "vpin": 0.5898,
+   "notional_share": 0.07415,
+   "spread_bp": 111.16975,
+   "tox30_bp": 90.6347,
+   "pnl30_bp": 20.53505,
+   "pnlres_bp": -55.85231,
+   "trade_usd": 11.68608,
+   "trades_10s": 93.35801,
+   "spot_move_10s_c": 9.34274
+  },
+  {
+   "decile": 3,
+   "vpin": 0.63321,
+   "notional_share": 0.07619,
+   "spread_bp": 121.36441,
+   "tox30_bp": 95.78454,
+   "pnl30_bp": 25.57987,
+   "pnlres_bp": -33.13842,
+   "trade_usd": 12.00821,
+   "trades_10s": 90.72314,
+   "spot_move_10s_c": 9.27764
+  },
+  {
+   "decile": 4,
+   "vpin": 0.66887,
+   "notional_share": 0.07787,
+   "spread_bp": 124.24149,
+   "tox30_bp": 76.9797,
+   "pnl30_bp": 47.26178,
+   "pnlres_bp": 13.62775,
+   "trade_usd": 12.27245,
+   "trades_10s": 89.1754,
+   "spot_move_10s_c": 9.10737
+  },
+  {
+   "decile": 5,
+   "vpin": 0.70225,
+   "notional_share": 0.08151,
+   "spread_bp": 130.87115,
+   "tox30_bp": 63.99545,
+   "pnl30_bp": 66.87569,
+   "pnlres_bp": 18.83394,
+   "trade_usd": 12.84673,
+   "trades_10s": 88.08993,
+   "spot_move_10s_c": 8.88781
+  },
+  {
+   "decile": 6,
+   "vpin": 0.73604,
+   "notional_share": 0.08508,
+   "spread_bp": 148.25965,
+   "tox30_bp": 84.34638,
+   "pnl30_bp": 63.91327,
+   "pnlres_bp": -10.76719,
+   "trade_usd": 13.40977,
+   "trades_10s": 87.90512,
+   "spot_move_10s_c": 8.74806
+  },
+  {
+   "decile": 7,
+   "vpin": 0.77248,
+   "notional_share": 0.09223,
+   "spread_bp": 140.53906,
+   "tox30_bp": 79.90746,
+   "pnl30_bp": 60.6316,
+   "pnlres_bp": -21.12192,
+   "trade_usd": 14.53628,
+   "trades_10s": 88.50157,
+   "spot_move_10s_c": 8.46427
+  },
+  {
+   "decile": 8,
+   "vpin": 0.8148,
+   "notional_share": 0.10464,
+   "spread_bp": 147.24831,
+   "tox30_bp": 57.84159,
+   "pnl30_bp": 89.40672,
+   "pnlres_bp": 8.88873,
+   "trade_usd": 16.49182,
+   "trades_10s": 89.06633,
+   "spot_move_10s_c": 7.99077
+  },
+  {
+   "decile": 9,
+   "vpin": 0.86814,
+   "notional_share": 0.13117,
+   "spread_bp": 153.67508,
+   "tox30_bp": 54.90209,
+   "pnl30_bp": 98.77299,
+   "pnlres_bp": 36.48412,
+   "trade_usd": 20.67289,
+   "trades_10s": 90.90948,
+   "spot_move_10s_c": 7.26926
+  },
+  {
+   "decile": 10,
+   "vpin": 0.94876,
+   "notional_share": 0.2069,
+   "spread_bp": 92.7331,
+   "tox30_bp": 36.72058,
+   "pnl30_bp": 56.01251,
+   "pnlres_bp": 42.53534,
+   "trade_usd": 32.60933,
+   "trades_10s": 84.21498,
+   "spot_move_10s_c": 5.72277
+  }
+ ],
+ "top_minus_bottom_vpin_flow50": {
+  "tox30_bp": -52.008047687858614,
+  "ci": [
+   -79.74225537014223,
+   -23.51569250500884
+  ]
+ },
+ "deciles_vpin_flow500": [
+  {
+   "decile": 1,
+   "vpin": 0.24194,
+   "notional_share": 0.07195,
+   "spread_bp": 118.95896,
+   "tox30_bp": 104.4779,
+   "pnl30_bp": 14.48107,
+   "pnlres_bp": 14.58235,
+   "trade_usd": 11.53572,
+   "trades_10s": 73.25596,
+   "spot_move_10s_c": 7.86232
+  },
+  {
+   "decile": 2,
+   "vpin": 0.32632,
+   "notional_share": 0.07643,
+   "spread_bp": 120.03922,
+   "tox30_bp": 97.70372,
+   "pnl30_bp": 22.33549,
+   "pnlres_bp": 8.68788,
+   "trade_usd": 12.25396,
+   "trades_10s": 85.26653,
+   "spot_move_10s_c": 9.25725
+  },
+  {
+   "decile": 3,
+   "vpin": 0.36932,
+   "notional_share": 0.07939,
+   "spread_bp": 138.59061,
+   "tox30_bp": 87.08999,
+   "pnl30_bp": 51.50062,
+   "pnlres_bp": 5.95232,
+   "trade_usd": 12.7278,
+   "trades_10s": 86.13678,
+   "spot_move_10s_c": 9.36362
+  },
+  {
+   "decile": 4,
+   "vpin": 0.40425,
+   "notional_share": 0.08214,
+   "spread_bp": 132.70885,
+   "tox30_bp": 67.07359,
+   "pnl30_bp": 65.63526,
+   "pnlres_bp": 9.00367,
+   "trade_usd": 13.16868,
+   "trades_10s": 90.50732,
+   "spot_move_10s_c": 9.34155
+  },
+  {
+   "decile": 5,
+   "vpin": 0.43693,
+   "notional_share": 0.08619,
+   "spread_bp": 136.99972,
+   "tox30_bp": 69.01344,
+   "pnl30_bp": 67.98628,
+   "pnlres_bp": -7.37531,
+   "trade_usd": 13.8184,
+   "trades_10s": 93.1597,
+   "spot_move_10s_c": 9.32152
+  },
+  {
+   "decile": 6,
+   "vpin": 0.47114,
+   "notional_share": 0.09236,
+   "spread_bp": 146.95381,
+   "tox30_bp": 61.69545,
+   "pnl30_bp": 85.25836,
+   "pnlres_bp": -43.41828,
+   "trade_usd": 14.80821,
+   "trades_10s": 96.00338,
+   "spot_move_10s_c": 9.10423
+  },
+  {
+   "decile": 7,
+   "vpin": 0.50865,
+   "notional_share": 0.09999,
+   "spread_bp": 157.54197,
+   "tox30_bp": 45.75469,
+   "pnl30_bp": 111.78727,
+   "pnlres_bp": 0.02857,
+   "trade_usd": 16.03149,
+   "trades_10s": 97.81878,
+   "spot_move_10s_c": 8.83072
+  },
+  {
+   "decile": 8,
+   "vpin": 0.55398,
+   "notional_share": 0.11313,
+   "spread_bp": 149.16984,
+   "tox30_bp": 73.29631,
+   "pnl30_bp": 75.87354,
+   "pnlres_bp": -3.52421,
+   "trade_usd": 18.13766,
+   "trades_10s": 102.38567,
+   "spot_move_10s_c": 8.37138
+  },
+  {
+   "decile": 9,
+   "vpin": 0.61603,
+   "notional_share": 0.13293,
+   "spread_bp": 129.3931,
+   "tox30_bp": 44.52257,
+   "pnl30_bp": 84.87053,
+   "pnlres_bp": 17.35008,
+   "trade_usd": 21.31225,
+   "trades_10s": 108.91161,
+   "spot_move_10s_c": 7.94469
+  },
+  {
+   "decile": 10,
+   "vpin": 0.73904,
+   "notional_share": 0.1655,
+   "spread_bp": 71.15089,
+   "tox30_bp": 48.42953,
+   "pnl30_bp": 22.72136,
+   "pnlres_bp": 40.31611,
+   "trade_usd": 26.53478,
+   "trades_10s": 98.94562,
+   "spot_move_10s_c": 6.34357
+  }
+ ],
+ "top_minus_bottom_vpin_flow500": {
+  "tox30_bp": -56.048370117195525,
+  "ci": [
+   -89.08778206900973,
+   -26.902046662217604
+  ]
+ },
+ "spearman": {
+  "vpin_bot": {
+   "vpin_bot": 1.0,
+   "vpin_flow5": 0.0994,
+   "vpin_flow50": -0.0838,
+   "vpin_flow500": -0.0528,
+   "notional": 0.0246,
+   "n_10s": 0.0147,
+   "spot_move_10s": -0.0361
+  },
+  "vpin_flow5": {
+   "vpin_bot": 0.0994,
+   "vpin_flow5": 1.0,
+   "vpin_flow50": 0.381,
+   "vpin_flow500": 0.195,
+   "notional": 0.0532,
+   "n_10s": -0.0254,
+   "spot_move_10s": -0.0617
+  },
+  "vpin_flow50": {
+   "vpin_bot": -0.0838,
+   "vpin_flow5": 0.381,
+   "vpin_flow50": 1.0,
+   "vpin_flow500": 0.4819,
+   "notional": 0.0267,
+   "n_10s": -0.0096,
+   "spot_move_10s": -0.1276
+  },
+  "vpin_flow500": {
+   "vpin_bot": -0.0528,
+   "vpin_flow5": 0.195,
+   "vpin_flow50": 0.4819,
+   "vpin_flow500": 1.0,
+   "notional": 0.019,
+   "n_10s": 0.0657,
+   "spot_move_10s": -0.144
+  },
+  "notional": {
+   "vpin_bot": 0.0246,
+   "vpin_flow5": 0.0532,
+   "vpin_flow50": 0.0267,
+   "vpin_flow500": 0.019,
+   "notional": 1.0,
+   "n_10s": 0.0316,
+   "spot_move_10s": 0.0108
+  },
+  "n_10s": {
+   "vpin_bot": 0.0147,
+   "vpin_flow5": -0.0254,
+   "vpin_flow50": -0.0096,
+   "vpin_flow500": 0.0657,
+   "notional": 0.0316,
+   "n_10s": 1.0,
+   "spot_move_10s": 0.4607
+  },
+  "spot_move_10s": {
+   "vpin_bot": -0.0361,
+   "vpin_flow5": -0.0617,
+   "vpin_flow50": -0.1276,
+   "vpin_flow500": -0.144,
+   "notional": 0.0108,
+   "n_10s": 0.4607,
+   "spot_move_10s": 1.0
+  }
+ },
+ "regression": {
+  "vpin_bot alone": {
+   "r2": 1.722635988921084e-05,
+   "coef": {
+    "vpin_bot": [
+     0.07181991994786617,
+     0.019131921379243456,
+     0.12664045018628214
+    ]
+   }
+  },
+  "vpin_flow50 alone": {
+   "r2": 7.477522020626903e-05,
+   "coef": {
+    "vpin_flow50": [
+     -0.14781457165534234,
+     -0.20575092205810916,
+     -0.1002353522590959
+    ]
+   }
+  },
+  "spot move alone": {
+   "r2": 3.466009644437218e-05,
+   "coef": {
+    "spot_move_10s": [
+     0.10871717482634437,
+     0.016718537697068818,
+     0.19825941662940205
+    ]
+   }
+  },
+  "all": {
+   "r2": 0.0004341339917961484,
+   "coef": {
+    "vpin_bot": [
+     0.046495959600388374,
+     -0.01223736826378402,
+     0.09995924732107214
+    ],
+    "vpin_flow50": [
+     0.0025010373680459754,
+     -0.062481490321293486,
+     0.07015136678143599
+    ],
+    "log_trades_10s": [
+     -0.11609252084390229,
+     -0.2073951825969738,
+     -0.030972693194657664
+    ],
+    "spot_move_10s": [
+     0.061532774318304,
+     -0.03626807591039933,
+     0.1559789630139002
+    ],
+    "p_one_minus_p": [
+     0.27645785592758587,
+     0.17126600609456052,
+     0.38482576535166146
+    ],
+    "time_in_window": [
+     0.3304488959321226,
+     0.22725263981730834,
+     0.4384473001681685
+    ],
+    "log_trade_usd": [
+     -0.1689365539654543,
+     -0.215841350813941,
+     -0.1129476757825496
+    ]
+   }
+  }
+ },
+ "signed": {
+  "corr": 0.00907371478677948,
+  "deciles": [
+   {
+    "dec": 1,
+    "signed": -0.85842,
+    "fut30_c": -0.1898
+   },
+   {
+    "dec": 2,
+    "signed": -0.61952,
+    "fut30_c": -0.17338
+   },
+   {
+    "dec": 3,
+    "signed": -0.42556,
+    "fut30_c": -0.14747
+   },
+   {
+    "dec": 4,
+    "signed": -0.24758,
+    "fut30_c": -0.03352
+   },
+   {
+    "dec": 5,
+    "signed": -0.07818,
+    "fut30_c": -0.18374
+   },
+   {
+    "dec": 6,
+    "signed": 0.08908,
+    "fut30_c": -0.04279
+   },
+   {
+    "dec": 7,
+    "signed": 0.25527,
+    "fut30_c": 0.15774
+   },
+   {
+    "dec": 8,
+    "signed": 0.4267,
+    "fut30_c": 0.1746
+   },
+   {
+    "dec": 9,
+    "signed": 0.61554,
+    "fut30_c": 0.19837
+   },
+   {
+    "dec": 10,
+    "signed": 0.85648,
+    "fut30_c": 0.41164
+   }
+  ]
+ },
+ "quoter_pauses": [
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "bot rule: VPIN > 0.7",
+   "pause_share": 0.9852,
+   "total": -3008.8565,
+   "volume": 50031.6656,
+   "fills": 9025.0,
+   "ci_lo": -4827.9595,
+   "ci_hi": -1265.6057,
+   "bp": -601.3904,
+   "per_day": -100.2952
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "bot rule: VPIN > 0.85",
+   "pause_share": 0.8737,
+   "total": -20547.8713,
+   "volume": 336408.4965,
+   "fills": 58322.0,
+   "ci_lo": -25844.6438,
+   "ci_hi": -15003.8384,
+   "bp": -610.8012,
+   "per_day": -684.929
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "no pause",
+   "pause_share": 0.0,
+   "total": -56722.1722,
+   "volume": 2166207.4704,
+   "fills": 408976.0,
+   "ci_lo": -72777.7585,
+   "ci_hi": -41364.8181,
+   "bp": -261.8501,
+   "per_day": -1890.7391
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "random 20%",
+   "pause_share": 0.2,
+   "total": -58591.2828,
+   "volume": 1884316.8418,
+   "fills": 352224.3333,
+   "ci_lo": -72935.0657,
+   "ci_hi": -44534.7647,
+   "bp": -310.9418,
+   "per_day": -1953.0428
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "random 87% (placebo for VPIN > 0.85)",
+   "pause_share": 0.8737,
+   "total": -32183.898,
+   "volume": 513961.028,
+   "fills": 88305.6667,
+   "ci_lo": -39864.1699,
+   "ci_hi": -24899.987,
+   "bp": -626.1934,
+   "per_day": -1072.7966
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "random 99% (placebo for VPIN > 0.7)",
+   "pause_share": 0.9852,
+   "total": -4333.6465,
+   "volume": 66751.9273,
+   "fills": 11180.3333,
+   "ci_lo": -5979.9073,
+   "ci_hi": -2664.7697,
+   "bp": -649.2167,
+   "per_day": -144.4549
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "top 20% bot VPIN",
+   "pause_share": 0.2,
+   "total": -58800.1255,
+   "volume": 1795141.27,
+   "fills": 335257.0,
+   "ci_lo": -72803.438,
+   "ci_hi": -45177.82,
+   "bp": -327.5515,
+   "per_day": -1960.0042
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "top 20% flow VPIN $500",
+   "pause_share": 0.2,
+   "total": -57125.6193,
+   "volume": 2099691.6862,
+   "fills": 395823.0,
+   "ci_lo": -73292.2703,
+   "ci_hi": -42570.6265,
+   "bp": -272.0667,
+   "per_day": -1904.1873
+  },
+  {
+   "half": 0.03,
+   "mode": "all",
+   "rule_group": "top 20% spot move (10 s)",
+   "pause_share": 0.2,
+   "total": -64181.0177,
+   "volume": 1540703.6144,
+   "fills": 286628.0,
+   "ci_lo": -76451.0968,
+   "ci_hi": -52976.246,
+   "bp": -416.5695,
+   "per_day": -2139.3673
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "bot rule: VPIN > 0.7",
+   "pause_share": 0.9852,
+   "total": 551.58,
+   "volume": 271871.2225,
+   "fills": 51105.0,
+   "ci_lo": -1499.0239,
+   "ci_hi": 2507.5068,
+   "bp": 20.2883,
+   "per_day": 18.386
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "bot rule: VPIN > 0.85",
+   "pause_share": 0.8737,
+   "total": -18615.7878,
+   "volume": 689179.7142,
+   "fills": 125794.0,
+   "ci_lo": -25465.1865,
+   "ci_hi": -12270.7085,
+   "bp": -270.1151,
+   "per_day": -620.5263
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "random 20%",
+   "pause_share": 0.2,
+   "total": -57341.0822,
+   "volume": 2046276.626,
+   "fills": 383775.0,
+   "ci_lo": -72386.734,
+   "ci_hi": -42722.7745,
+   "bp": -280.2216,
+   "per_day": -1911.3694
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "random 87% (placebo for VPIN > 0.85)",
+   "pause_share": 0.8737,
+   "total": -30873.542,
+   "volume": 957559.9384,
+   "fills": 172460.0,
+   "ci_lo": -40784.7416,
+   "ci_hi": -21665.3575,
+   "bp": -322.4189,
+   "per_day": -1029.1181
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "random 99% (placebo for VPIN > 0.7)",
+   "pause_share": 0.9852,
+   "total": -2505.1593,
+   "volume": 262358.0155,
+   "fills": 48340.0,
+   "ci_lo": -4780.7746,
+   "ci_hi": -300.942,
+   "bp": -95.4863,
+   "per_day": -83.5053
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "top 20% bot VPIN",
+   "pause_share": 0.2,
+   "total": -56596.1268,
+   "volume": 1934841.372,
+   "fills": 362473.0,
+   "ci_lo": -71004.6102,
+   "ci_hi": -42140.7968,
+   "bp": -292.5104,
+   "per_day": -1886.5376
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "top 20% flow VPIN $500",
+   "pause_share": 0.2,
+   "total": -56748.9745,
+   "volume": 2127409.0417,
+   "fills": 401287.0,
+   "ci_lo": -71995.7595,
+   "ci_hi": -41278.8057,
+   "bp": -266.7516,
+   "per_day": -1891.6325
+  },
+  {
+   "half": 0.03,
+   "mode": "entry",
+   "rule_group": "top 20% spot move (10 s)",
+   "pause_share": 0.2,
+   "total": -56281.3535,
+   "volume": 1889849.6709,
+   "fills": 351933.0,
+   "ci_lo": -70398.0501,
+   "ci_hi": -42858.8366,
+   "bp": -297.8086,
+   "per_day": -1876.0451
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "bot rule: VPIN > 0.7",
+   "pause_share": 0.9852,
+   "total": -1530.3757,
+   "volume": 31716.919,
+   "fills": 5526.0,
+   "ci_lo": -2915.3671,
+   "ci_hi": -225.4544,
+   "bp": -482.5108,
+   "per_day": -51.0125
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "bot rule: VPIN > 0.85",
+   "pause_share": 0.8737,
+   "total": -13036.6842,
+   "volume": 237317.0417,
+   "fills": 41371.0,
+   "ci_lo": -17769.1371,
+   "ci_hi": -8724.6836,
+   "bp": -549.3362,
+   "per_day": -434.5561
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "no pause",
+   "pause_share": 0.0,
+   "total": -26040.7022,
+   "volume": 1493010.6775,
+   "fills": 277840.0,
+   "ci_lo": -40029.2209,
+   "ci_hi": -12942.9301,
+   "bp": -174.4174,
+   "per_day": -868.0234
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "random 20%",
+   "pause_share": 0.2,
+   "total": -29571.4135,
+   "volume": 1311539.4334,
+   "fills": 241844.0,
+   "ci_lo": -43050.8544,
+   "ci_hi": -16840.6649,
+   "bp": -225.471,
+   "per_day": -985.7138
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "random 87% (placebo for VPIN > 0.85)",
+   "pause_share": 0.8737,
+   "total": -20788.6612,
+   "volume": 365955.6868,
+   "fills": 63126.0,
+   "ci_lo": -27815.2364,
+   "ci_hi": -14500.753,
+   "bp": -568.065,
+   "per_day": -692.9554
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "random 99% (placebo for VPIN > 0.7)",
+   "pause_share": 0.9852,
+   "total": -2670.0406,
+   "volume": 48623.287,
+   "fills": 8172.0,
+   "ci_lo": -4101.0788,
+   "ci_hi": -1225.3575,
+   "bp": -549.1279,
+   "per_day": -89.0014
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "top 20% bot VPIN",
+   "pause_share": 0.2,
+   "total": -30099.7045,
+   "volume": 1261364.903,
+   "fills": 232519.0,
+   "ci_lo": -42583.2016,
+   "ci_hi": -17702.0653,
+   "bp": -238.628,
+   "per_day": -1003.3235
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "top 20% flow VPIN $500",
+   "pause_share": 0.2,
+   "total": -27065.0374,
+   "volume": 1444620.4066,
+   "fills": 268504.0,
+   "ci_lo": -41391.8775,
+   "ci_hi": -13441.8161,
+   "bp": -187.3505,
+   "per_day": -902.1679
+  },
+  {
+   "half": 0.05,
+   "mode": "all",
+   "rule_group": "top 20% spot move (10 s)",
+   "pause_share": 0.2,
+   "total": -39682.6636,
+   "volume": 1052795.121,
+   "fills": 193040.0,
+   "ci_lo": -50523.3103,
+   "ci_hi": -29844.5288,
+   "bp": -376.9267,
+   "per_day": -1322.7555
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "bot rule: VPIN > 0.7",
+   "pause_share": 0.9852,
+   "total": 963.5895,
+   "volume": 124029.7711,
+   "fills": 22893.0,
+   "ci_lo": -453.5881,
+   "ci_hi": 2332.5472,
+   "bp": 77.6902,
+   "per_day": 32.1196
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "bot rule: VPIN > 0.85",
+   "pause_share": 0.8737,
+   "total": -9799.9733,
+   "volume": 429493.0108,
+   "fills": 78179.0,
+   "ci_lo": -14812.2959,
+   "ci_hi": -4745.4364,
+   "bp": -228.1754,
+   "per_day": -326.6658
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "random 20%",
+   "pause_share": 0.2,
+   "total": -27175.1626,
+   "volume": 1402679.3322,
+   "fills": 259813.6667,
+   "ci_lo": -41140.364,
+   "ci_hi": -14058.089,
+   "bp": -193.7375,
+   "per_day": -905.8388
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "random 87% (placebo for VPIN > 0.85)",
+   "pause_share": 0.8737,
+   "total": -16909.9247,
+   "volume": 626621.5906,
+   "fills": 112636.3333,
+   "ci_lo": -25456.2733,
+   "ci_hi": -8961.7085,
+   "bp": -269.8586,
+   "per_day": -563.6642
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "random 99% (placebo for VPIN > 0.7)",
+   "pause_share": 0.9852,
+   "total": -979.3599,
+   "volume": 146831.0787,
+   "fills": 26765.3333,
+   "ci_lo": -2844.6561,
+   "ci_hi": 725.8722,
+   "bp": -66.6998,
+   "per_day": -32.6453
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "top 20% bot VPIN",
+   "pause_share": 0.2,
+   "total": -27466.5987,
+   "volume": 1335873.2786,
+   "fills": 246992.0,
+   "ci_lo": -40214.9583,
+   "ci_hi": -14933.7533,
+   "bp": -205.6078,
+   "per_day": -915.5533
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "top 20% flow VPIN $500",
+   "pause_share": 0.2,
+   "total": -26297.8245,
+   "volume": 1463198.4459,
+   "fills": 272070.0,
+   "ci_lo": -40303.1806,
+   "ci_hi": -12539.5531,
+   "bp": -179.7284,
+   "per_day": -876.5941
+  },
+  {
+   "half": 0.05,
+   "mode": "entry",
+   "rule_group": "top 20% spot move (10 s)",
+   "pause_share": 0.2,
+   "total": -29697.1856,
+   "volume": 1274052.2125,
+   "fills": 234529.0,
+   "ci_lo": -42235.6301,
+   "ci_hi": -17769.6667,
+   "bp": -233.0924,
+   "per_day": -989.9062
+  }
+ ]
+}
