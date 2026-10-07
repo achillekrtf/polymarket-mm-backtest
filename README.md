@@ -36,7 +36,7 @@ tar -xzf polymarket-btc5m-2026-09-05_2026-10-04.tar.gz   # -> data/markets.parqu
 | `data/ws_1791323100.jsonl` | One live market recorded from the CLOB websocket (match-time timestamps) |
 | `data/ws_delay.json`, `data/lag_corr.csv` | Timestamp delay measurements |
 
-Polymarket's Data API only keeps about a month of trades, so this period can no longer be downloaded from the API. For a recent period, `fetch_markets.py` and `fetch_spot.py` download the raw files and `pack_data.py` packs them into the same parquet layout.
+Polymarket's Data API only keeps about a month of trades, so this period will not stay downloadable from the API. For a recent period, `fetch_markets.py` and `fetch_spot.py` download the raw files and `pack_data.py` packs them into the same parquet layout.
 
 ## Run it
 
